@@ -1,0 +1,43 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#blackjack h1{
+    color: goldenrod;
+}
+
+#blackjack p{
+    font-weight: bold;
+}
+
+#messaging{
+    font-style: italic;
+}
+
+#blackjack button{
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    font-weight: bold;
+}
+
+#saleslead input{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #5f9341;
+}
+
+#saleslead ul{
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+#saleslead li{
+    margin-top: 5px;
+}
+
+#saleslead li a{
+    text-decoration: none;
+    color: #016f32;
+}

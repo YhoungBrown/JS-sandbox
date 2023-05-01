@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "leads tracker",
+    "action": {
+        "default_popup":"chromeExtension.html",
+        "default_icon": "Yhoung Brown (2).png"
+    },
+
+    "permission": [
+        "tabs"
+    ]
+}

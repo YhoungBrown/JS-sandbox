@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Styling.css">
+    <title>JS Practice</title>
+</head>
+
+<body>
+    <!--Start Here-->
+    <section class="bg-dark text-light text-center py-4">
+        <h1>Peolpe Entered</h1>
+        <h2 id="count-el">0</h2>
+
+        <h3 id="count-elo">0</h3>
+
+        
+
+        <button id="increment-btn" class="btn btn-primary btn-lg" onclick="increment()">Increment</button>
+
+        <button id="increasing" class="btn btn-success btn-lg p-3" onclick="increase()">Increasing</button>
+    </section>
+
+    
+    <section class="bg-light text-center py-4">
+        <h1>People Standing for train</h1>
+        <h2 id="standing">0</h2>
+
+        <button id="wait-train" class="btn btn-danger" onclick="awaiting()">Click me</button>
+
+        <button id="save-btn" class="btn btn-dark text-light" onclick="save()">save</button>
+        <p id="save-me" class="py-3 save-me"><b>Previous Entries :</b></p>
+
+        <p id="welcome-el"></p>
+    </section>
+
+    <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="../js practice/IMAGES/png_20221003_001119_0000.png" alt="my shoe design" class="img-fluid">
+            </div>
+        </div>
+        <div class="my-3">
+            <p>Nike Shoes</p>
+            <button class="btn btn-outline-success text-center" onclick="error()">
+            Purchase - $149
+            </button>
+            <small id="error" class="d-block"></small>
+        </div>
+    </div>
+    </section>
+
+    <section>
+        <div class="container text-center py-5">
+            <div class="border border-radius-5">
+            <span id="num1"></span>
+            <span id="num2"></span>
+            <br>
+            <br>
+            <button class="btn btn-outline-primary" onclick="add()">Add</button>
+            <button class="btn btn-outline-danger" onclick="subtract()">subtract</button>
+            <button class="btn btn-outline-secondary" onclick="divide()">divide</button>
+            <button class="btn btn-outline-success" onclick="multiply()">multiply</button>
+            <br>
+            <div id="sum" class="py-2"><strong>sum : </strong></div>
+            </div>
+        </div>
+    </section>
+    <section id="blackjack">
+        <div class="container bg-success text-center py-5 text-white">
+            <h1>BlackJack</h1>
+            <p id="messaging">Want to play a round?</p>
+            <p id="cards">Cards :</p>
+            <p id="summary">Sum: </p>
+            <button class="btn" onclick="startgame()">Start Game</button>
+            
+            <button class="btn my-3" onclick="newcard()">New Card</button>
+            <p id="winnings-el"></p>
+        </div>
+
+        <p id="seeme"></p>
+
+        <p id="apple"></p>
+        <p id="orange"></p>
+
+        <p id="dollar"></p>
+        <p id="pounds"></p>
+        <p id="naira"></p>
+    </section>
+
+    <!--Sales lead chrome extension-->
+    <section class="container my-5" id="saleslead">
+        <input type="text" id="input-el" class="form-control">
+        <button id="input-btn" class="btn btn-success my-2">SAVE INPUT</button>
+
+        <button id="tab-btn" class="btn btn-success my-2">SAVE TAB</button>
+
+        <button id="delete-btn" class="btn btn-outline-success">Delete All</button>
+
+        <ul  id="ul-el"></ul>
+    </section>
+
+    <!--Practice-->
+
+    <p id="box" class="container bg-primary text-light p-4 text-center">Open The box</p>
+
+    <div class="container" id="buyspace"></div>
+
+    <p id="welcomebck"></p>
+
+    <button id="janescore" class="btn btn-primary">Jane's score</button>
+
+    <h1>the brooklyn agency</h1>
+    <div id="container">
+        <!--<img src="../js practice/Yhoung Brown (2).png" alt="yb" class="img-fluid">
+        <img src="../js practice/Yhoung Brown (2).png" alt="yb" class="img-fluid">
+        <img src="../js practice/Yhoung Brown (2).png" alt="yb" class="img-fluid"> -->
+    </div>
+
+    
+
+
+<div style="margin: 300px;"></div>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script>
+    //get the current year for the copyright
+    $('#year').text(new date().getfullyear())
+</script>
+<script src="../js practice/JS/styletime.js"></script>
+</body>
+
+</html>
