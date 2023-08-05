@@ -255,7 +255,7 @@ if(hasSolvedChallenge === false  && hasHintLeft === false ) {
 }
 
 else if(hasSolvedChallenge === false || hasHintLeft === true){
-    showSolution()
+    showSolution() //this is for "OR" operator (||)
 }
 
 function showSolution(){
@@ -841,7 +841,7 @@ take(courseMy)
 //console.log(see)
 
 localStorage.setItem("whatTime","its 9pm")
-let check = localStorage.getItem("WhatTime")
+let check = localStorage.getItem("whatTime")
 console.log(check)
 
 localStorage.setItem("hum","moi dear")
